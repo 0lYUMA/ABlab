@@ -1,0 +1,193 @@
+* {
+    margin: 0 auto;
+}
+
+.topBar {
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 40px;
+}
+
+.logo {
+    width: 106px;
+    height: 55px;
+    display: inline-block;
+    font-size: 30px;
+    margin: 0 auto;
+    color: #13322C;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.AboutUs {
+    background-color: #13322C;
+    color: white;
+    width: 139px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+}
+
+a:hover {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+p {
+    font-size: 18px;
+}
+
+.ABlab_bg {
+    width: 500px;
+    height: 500px;
+    background-color: #F2F7F3;
+    border-radius: 70%;
+    margin: 0 auto;
+}
+
+.ABlab {
+    filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.25));
+    width: 450px;
+
+    position: relative;
+    top: -410px;
+    left: 390px;
+}
+
+.ABlab_p {
+    display: inline-block;
+    position:relative; 
+    top: -320px;
+    left: -200px;
+    line-height: 35px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.bar {
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    left: 130px;
+    width: 10px;
+    height: 100px;
+    background: #13322C;
+    border-radius: 8px;
+}
+
+.sub2 {
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.ABlab_img {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    margin-right: 100px;
+}
+
+.div3 {
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.div4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub2_p {
+    display: inline-block;
+    height: 150px;
+    line-height: 35px;
+    position: relative;
+    left: 170px;
+}
+
+.underscore {
+    background: rgba(45, 132, 115, 0.2);
+    height: 18px;
+    position: relative;
+    top: -15px;
+}
+
+.teamBar {
+    background: rgba(19, 50, 44, 0.7);
+    border-radius: 10px;
+    width: 4px;
+    display: inline-block;
+}
+
+.profile {
+    width: 220px;
+    display: inline;
+    position: relative;
+    bottom: -20px;
+    left: -200px;
+}
+
+.impression {
+    display: inline-block;
+    width: 550px;
+    height: 150px;
+    font-size: 15px;
+    line-height: 25px;
+    position: relative;
+    left: 10px;
+    font-weight: lighter;
+}
+
+.name {
+    width: 200px;
+    padding-top: 5px;
+    color: #13322C;
+    position: relative;
+    left: -100px;
+    top: 40px;
+    font-size: 15px;
+}
+
+.profile_bg {
+    width: 200px;
+    height: 200px;
+    background-color: #F2F7F3;
+    border-radius: 70%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.question {
+    line-height: 30px;
+
+}
+
+.comment {
+    width: 750px;
+    padding: 20px;
+    display: block;
+
+    background: #F6F6F6;
+    border: 1px solid #B3B3B3;
+    color: #A7A7A7;
+}
+
+.btn {
+    width: 150px;
+    height: 220px;
+    background: rgba(19, 50, 44, 0.8);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    vertical-align: bottom;
+}

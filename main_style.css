@@ -1,0 +1,209 @@
+.topBar {
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 45px;
+}
+
+.logo {
+    width: 106px;
+    height: 55px;
+    display: inline-block;
+    font-size: 30px;
+    margin: 0 auto;
+    color: rgba(248, 250, 249, 0.7);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.AboutUs {
+    background-color: #13322C;
+    color: white;
+    width: 139px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+}
+
+a:hover {
+    filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25));
+}
+
+.ABlab_bgimg {
+    background-image: url(./img/ABlab_bgimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0 auto;
+}
+
+.main {
+    padding-top: 5px;
+    padding-left: 50px;
+}
+
+.main_h {
+    display: inline-block;
+    font-size: 50px;
+    width: 600px;
+    line-height: 83px;
+    margin-top: 55px;
+}
+
+.main_p {
+    padding-top: 20px;
+    padding-bottom: 400px;
+    margin: 0 auto;
+
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.ABlab_ex {
+    width: 300px;
+}
+
+.news {
+    height: 900px;
+    background-image: url(./img/news.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 800px;
+    color: #13322C;
+    margin: 0 auto;
+}
+
+.bg {
+    background-image: url(./img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 200px;
+
+    margin: 0 auto;
+}
+
+.app_bg {
+    display: inline-block;
+    background: #2D4538;
+    border-radius: 70%;
+    width: 550px;
+    height: 550px;
+}
+
+.app {
+    height: 450px;
+}
+
+.app_p {
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.underscore {
+    background: rgba(45, 132, 115, 0.2);
+    height: 15px;
+    margin: 0 auto;
+    position: relative;
+    top: -10px;
+}
+
+.review_bg {
+    display: inline-block;
+    width: 170px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.comment {
+    width: 750px;
+    padding: 20px;
+    display: block;
+
+    background: #F6F6F6;
+    border: 1px solid #B3B3B3;
+    color: #A7A7A7;
+}
+
+.btn {
+    width: 150px;
+    height: 220px;
+    background: rgba(19, 50, 44, 0.8);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    vertical-align: bottom;
+}
+
+li {
+    list-style-type: none;
+}
+
+#slideShow {
+    width: 960px;
+    height: 495px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.func {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: left 0.5s ease-out;
+    padding-left: 0;
+}
+  
+.func li{
+    float: left;
+    margin-right: 305px;
+    margin-left: 305px;
+}
+
+.slideController span{
+    position: absolute;
+    background-color: #13322C;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 70%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.slideController span:hover{
+    background-color: rgba(128, 128, 128, 0.11);
+}
+
+.prev{
+    left: 0px;
+    top: 300px;
+}
+
+.prev:hover{
+    transform: translateX(-10px);
+}
+
+.next{
+    right: 0px;
+    top: 300px;
+}
+
+.next:hover{
+    transform: translateX(10px);
+}
