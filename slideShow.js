@@ -27,3 +27,15 @@ prev.addEventListener('click', function () {
     moveSlide(funcCount-1);
   }
 });
+
+next.addEventListener('click', function () {
+  /* 마지막 슬라이드로 표시 됐을때는 
+  다음 버튼 눌러도 아무런 반응 없게 하기 위해
+  currentIdx !==slideCount - 1 일때만 
+  moveSlide 함수 불러옴 */
+  if (currentIdx < funcCount - 1) {
+    moveSlide(currentIdx + 1);
+  } else {
+    moveSlide(0);
+  }
+});

@@ -114,7 +114,7 @@ a:hover {
     height: 15px;
     margin: 0 auto;
     position: relative;
-    top: -10px;
+    top: -8px;
 }
 
 .review_bg {
@@ -133,6 +133,16 @@ a:hover {
     background: #F6F6F6;
     border: 1px solid #B3B3B3;
     color: #A7A7A7;
+}
+
+.comment_bg {
+    line-height: 30px;
+    padding-bottom: 200px;
+}
+
+.comment_li {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .btn {
@@ -191,19 +201,19 @@ li {
 }
 
 .prev{
-    left: 0px;
+    left: 10px;
     top: 300px;
 }
 
 .prev:hover{
-    transform: translateX(-10px);
+    transform: translateX(-5px);
 }
 
 .next{
-    right: 0px;
+    right: 10px;
     top: 300px;
 }
 
 .next:hover{
-    transform: translateX(10px);
+    transform: translateX(5px);
 }
