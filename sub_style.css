@@ -180,6 +180,16 @@ p {
     color: #A7A7A7;
 }
 
+.comment_bg {
+    line-height: 30px;
+    padding-bottom: 200px;
+}
+
+.comment_li {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .btn {
     width: 150px;
     height: 220px;
