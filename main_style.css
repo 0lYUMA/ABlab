@@ -69,12 +69,12 @@ a:hover {
 }
 
 .news {
-    height: 900px;
+    height: 700px;
     background-image: url(./img/news.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    line-height: 800px;
+    align-items: center;
     color: #13322C;
     margin: 0 auto;
 }
