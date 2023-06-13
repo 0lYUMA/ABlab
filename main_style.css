@@ -157,6 +157,11 @@ a:hover {
     vertical-align: bottom;
 }
 
+.btn :hover {
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
 li {
     list-style-type: none;
 }
