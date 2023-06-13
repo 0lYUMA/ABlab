@@ -1,5 +1,18 @@
-* {
-    margin: 0 auto;
+.fixBtn {
+    all: unset;
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    bottom: 80px;
+    right: 100px;
+    background-image: url(./img/upBtn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 20;
+}
+
+.fixBtn:hover {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.45));
 }
 
 .topBar {
@@ -193,7 +206,7 @@ p {
 .btn {
     width: 150px;
     height: 220px;
-    background: rgba(19, 50, 44, 0.8);
+    background: #13322C;
     border: none;
     border-radius: 15px;
     color: white;

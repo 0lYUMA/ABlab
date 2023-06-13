@@ -15,6 +15,14 @@
 </head>
 <body>
 
+<button class="fixBtn" onclick="goTop()">
+</button>
+<script>
+    function goTop() {
+        window.scrollTo({ top: 0, behavior: "smooth"});
+    }
+</script>
+
 <!--상단바-->
 <div class="topBar">
     <a href="main.html" class="logo">ABlab</a>
@@ -25,7 +33,7 @@
 <!--sub 2-1-->
 <div style="text-align: center;">
     <h1 style="display: inline; position: relative; top: 30px; font-size: 40px;">
-        "ABlab" 어떻게 생각하게 된것일까
+        "<span style="color: #13322C;">ABlab</span>" 어떻게 생각하게 된것일까
     </h1>
     
     <div class="ABlab_bg"></div>
