@@ -54,7 +54,7 @@ a:hover {
 .ABlab_bgimg {
     background-image: url(./img/ABlab_bgimg.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 
     margin: 0 auto;
 }
@@ -99,10 +99,9 @@ a:hover {
 .bg {
     background-image: url(./img/bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    height: 1080px;
     text-align: center;
-    padding: 200px;
-
     margin: 0 auto;
 }
 
@@ -124,6 +123,11 @@ a:hover {
     left: 30px;
     font-size: 20px;
     line-height: 50px;
+}
+
+.recommend {
+    width: 50px;
+    margin-bottom: 10px;
 }
 
 .underscore {
