@@ -30,6 +30,7 @@ submit.addEventListener('click', () => {
     };
 
     registerComment(auth, commentData);
+    loadComments(auth);
 });
 
 function registerComment(auth, commentData) {    
